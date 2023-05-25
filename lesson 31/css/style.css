@@ -1,0 +1,31 @@
+
+
+
+.title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: -10px;
+    width: 10px;
+    height: 10px;
+    background: blue;
+    border-radius: 1px;
+
+}
+
+.title::after {
+    position: absolute;
+    top: 30%;
+    right: auto;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 1px;
+}
